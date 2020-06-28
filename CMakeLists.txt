@@ -16,3 +16,8 @@ target_link_libraries(main
     Eigen3::Eigen
     ${Pangolin_LIBRARIES}
     )
+
+add_executable(rotation_from_euler rotation_from_euler.cpp)
+target_link_libraries( rotation_from_euler
+    Eigen3::Eigen
+    )

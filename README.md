@@ -20,6 +20,8 @@ make
 
 ## RUN
 
+- Run ``./main``
+
 - Input Yaw, pitch and roll use keyboard
     - yaw: Z-axis   (Blue)
     - pitch: Y-axis (Green)
