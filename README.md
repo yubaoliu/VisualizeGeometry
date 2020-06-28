@@ -1,10 +1,10 @@
 # About
 
-Calculate and visualize Quaternion and Rotation matrix using Euler Angle.
+Calculate and visualize Quaternion and Rotation matrix using Euler Angle (yaw, pitch, roll).
 
 # How to use
 
-## Requrement
+## Requirement
 
 - Pangolin
 - Eigen
@@ -21,9 +21,9 @@ make
 ## RUN
 
 - Input Yaw, pitch and roll use keyboard
-    - yaw: Z-axis
-    - pitch: Y-axis
-    - roll: X-axis
+    - yaw: Z-axis   (Blue)
+    - pitch: Y-axis (Green)
+    - roll: X-axis (Red)
 
 - Output: Quaternion and Rotation matrix
 
