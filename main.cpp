@@ -106,7 +106,7 @@ int main(int argc, char** argv)
     pangolin::CreatePanel("ui").SetBounds(0.0, 1.0, 0.0, pangolin::Attach::Pix(UI_WIDTH));
     eulerAngle = new pangolin::Var<EulerAngle>("ui.YawPitchRoll", EulerAngle());
     pangolin::Var<RotationMatrix> rotation_matrix("ui.R", RotationMatrix());
-    pangolin::Var<QuaternionDraw> quaternion("ui.qaternon", QuaternionDraw());
+    pangolin::Var<QuaternionDraw> quaternion("ui.Quaternion", QuaternionDraw());
     pangolin::Var<std::function<void(void)>> reset("ui.Reset", ResetCallback);
 
     while (!pangolin::ShouldQuit()) {
